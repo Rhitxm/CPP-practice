@@ -7,7 +7,7 @@
 ###
 
 <div data-importer="image" align="center">
-  <img data-importer="image" height="200" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWw3cjlkYW4wNXV3bGw5NXdsdmlndWtnMmw1YnI2eGVxbnpqbGhuaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uES0oXcxs0TVGE79Mu/giphy.gif"  />
+  <img data-importer="image" height="200" src=""  />
 </div>
 
 ###
