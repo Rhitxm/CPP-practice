@@ -7,7 +7,8 @@
 ###
 
 <div data-importer="image" align="center">
-  <img data-importer="image" height="200" src="[https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWw3cjlkYW4wNXV3bGw5NXdsdmlndWtnMmw1YnI2eGVxbnpqbGhuaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uES0oXcxs0TVGE79Mu/giphy.gif](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjQ2Y3dlOTc0Z2kxdGUyZG5sbHVwaXA1YnVlZjVkOWlkZDg0cXYzMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ucWg3b4ylUw1bcYKpf/giphy.gif)"  />
+  <img data-importer="image" height="200" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWw3cjlkYW4wNXV3bGw5NXdsdmlndWtnMmw1YnI2eGVxbnpqbGhuaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uES0oXcxs0TVGE79Mu/giphy.gif
+    https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjQ2Y3dlOTc0Z2kxdGUyZG5sbHVwaXA1YnVlZjVkOWlkZDg0cXYzMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ucWg3b4ylUw1bcYKpf/giphy.gif"  />
 </div>
 
 ###
