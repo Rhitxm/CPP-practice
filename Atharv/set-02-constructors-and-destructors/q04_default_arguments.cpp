@@ -11,7 +11,7 @@ REQUIREMENTS:
 2. Private Data Members:
    - int data1, data2, data3;
 3. Public Constructor:
-   - Simple(int a, int b = 9, int c = 8); 
+   - Simple(int a, int b = 9, int c = 8);
      Assigns data1 = a, data2 = b, data3 = c.
 4. Public Member Function:
    - void printData(); // Prints: "The data is: data1, data2 and data3"
@@ -22,3 +22,39 @@ REQUIREMENTS:
    - Print all three to verify the default argument substitutions.
 ================================================================================
 */
+
+#include <iostream>
+using namespace std;
+
+class Simple
+{
+    int data1, data2, data3;
+
+public:
+    Simple(int, int, int);
+    void printdata();
+};
+
+Simple::Simple(int a, int b = 9, int c = 8)
+{
+    data1 = a;
+    data2 = b;
+    data3 = c;
+}
+void Simple::printdata()
+{
+    cout << "The value of data1, data2 and data3 is " << data1 << ", " << data2 << " and " << data3 << endl;
+}
+
+int main()
+{
+    Simple s1(1);
+    Simple s2(1, 4);
+    Simple s3(1, 4, 7);
+
+    s1.printdata();
+    s2.printdata();
+    s3.printdata();
+
+    return 0;
+}
