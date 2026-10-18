@@ -26,3 +26,53 @@ REQUIREMENTS:
    - Print all three to verify matching initializations.
 ================================================================================
 */
+
+#include <iostream>
+using namespace std;
+
+class Complex
+{
+    int a, b;
+
+public:
+    Complex();
+    Complex(int p, int q);
+    Complex(int p);
+    void printNumber();
+};
+
+Complex::Complex()
+{
+    a = 0;
+    b = 0;
+}
+
+Complex::Complex(int p, int q)
+{
+    a = p;
+    b = q;
+}
+
+Complex::Complex(int p)
+{
+    a = p;
+    b = 0;
+}
+
+void Complex::printNumber()
+{
+    cout << "Your number is " << a << " + " << b << "i" << endl;
+}
+
+int main()
+{
+    Complex c1(4, 6);
+    c1.printNumber();
+
+    Complex c2(5);
+    c2.printNumber();
+
+    Complex c3;
+    c3.printNumber();
+    return 0;
+}
