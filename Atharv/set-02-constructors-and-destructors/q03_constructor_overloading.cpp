@@ -1,6 +1,6 @@
 /*
 ================================================================================
-PROBLEM 03: Constructor Overloading (Harry's Lecture 31)
+PROBLEM 03: Constructor Overloading
 --------------------------------------------------------------------------------
 OBJECTIVE:
 Demonstrate constructor overloading by defining multiple constructors in a 
