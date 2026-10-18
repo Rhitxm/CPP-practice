@@ -31,11 +31,11 @@ class Simple
     int data1, data2, data3;
 
 public:
-    Simple(int, int, int);
+    Simple(int a, int b = 9, int c = 8);
     void printdata();
 };
 
-Simple::Simple(int a, int b = 9, int c = 8)
+Simple::Simple(int a, int b , int c)
 {
     data1 = a;
     data2 = b;
