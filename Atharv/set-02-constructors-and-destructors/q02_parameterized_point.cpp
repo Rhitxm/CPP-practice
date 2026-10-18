@@ -3,8 +3,8 @@
 PROBLEM 02: Parameterized Constructor & 2D Point Distance
 --------------------------------------------------------------------------------
 OBJECTIVE:
-Demonstrate how parameterized constructors pass arguments during object 
-creation using both implicit and explicit syntax, and compute Euclidean distance 
+Demonstrate how parameterized constructors pass arguments during object
+creation using both implicit and explicit syntax, and compute Euclidean distance
 between two Point objects using a friend function.
 
 MATHEMATICAL FORMULA:
@@ -30,3 +30,53 @@ REQUIREMENTS:
    - Expected distance between (1, 1) and (4, 5): 5.0
 ================================================================================
 */
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+class Points
+{
+    int x, y;
+    friend void distance(Points p1, Points p2);
+
+public:
+    Points(int, int);
+};
+
+Points::Points(int a, int b)
+{
+    x = a;
+    y = b;
+}
+
+void distance(Points p1, Points p2)
+{
+    float dist = sqrt(pow((p1.x - p2.x), 2) + pow((p1.y - p2.y), 2));
+
+    cout << "Distance between these points is " << dist;
+}
+
+int main()
+{
+    int a, b;
+
+    cout << "Enter x co-ordinate for point 1 : ";
+    cin >> a;
+    cout << "Enter y co-ordinate for point 1 : ";
+    cin >> b;
+
+    Points p1(a, b);
+
+    cout << "Enter x co-ordinate for point 2 : ";
+    cin >> a;
+    cout << "Enter y co-ordinate for point 2 : ";
+    cin >> b;
+
+    Points p2(a, b);
+
+    distance(p1, p2);
+
+    return 0;
+}
