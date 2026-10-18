@@ -21,3 +21,36 @@ REQUIREMENTS:
 ================================================================================
 */
 
+#include <iostream>
+using namespace std;
+
+int count = 0;
+
+class complex{
+    int a;
+    int b;
+    
+
+
+    public:
+        complex();
+        void display();
+};
+
+complex :: complex(){
+    :: count++;
+    cout<<endl<<"Constructor is called for object "<<:: count<<endl;
+    a = 0;
+    b = 0;
+    display();
+    
+}
+
+void complex :: display(){
+    cout<<a<<" + "<<b<<"i"<<endl;
+}
+
+int main(){
+    complex c1,c2,c3;
+    return 0;
+}
