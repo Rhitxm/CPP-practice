@@ -2,7 +2,7 @@
 
 ###
 
-<h2 data-importer="text" align="left">About us</h2>
+<!-- <h2 data-importer="text" align="left">About us</h2> -->
 
 ###
 
