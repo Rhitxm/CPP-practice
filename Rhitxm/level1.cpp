@@ -123,3 +123,21 @@ int main(){
     cout<<"Sum of the digits of the entered number is "<<sum<<endl;
     return 0;
 }
+
+
+//Reverse an integer without converting it to a string. Example: 12340 → 4321.
+#include <iostream>
+using namespace std;
+int main(){
+    int n, rem, rev=0;
+    cout<<"Enter a number: "<<endl;
+    cin>>n;
+    cout<<"Entered digit is: "<<n<<endl;
+    while(n!=0){
+        rem=n%10;
+        rev=rev*10+rem;
+        n=n/10;
+    }
+    cout<<"Reversed digit is: "<<rev<<endl;
+    return 0;
+}
