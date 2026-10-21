@@ -15,3 +15,23 @@ int main(){
     }
     return 0;
 }
+
+
+//Print the multiplication table of a number up to 10 using a loop.
+//i've used for loop here
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n;
+    int tab;
+    cout<<"Enter your number you want table of: "<<endl;
+    cin>>n;
+
+    for(int i=1; i<=10; i++){
+        tab=n*i;
+        cout<<n<<"*"<<i<<" = "<<tab<<endl;
+    }
+    
+    return 0;
+}
