@@ -84,3 +84,24 @@ int main(){
     }
     return 0;
 }
+
+
+//Calculate the factorial of a number n. For example, 5! = 120. Handle n = 0.
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n, factorial=1;
+    cout<<"Enter a number: ";
+    cin>>n;
+    if(n==0){
+        cout<<"Factorial of entered number is 0"<<endl;
+    }
+    else if(n!=0){
+        for(int i=1; i<=n; i++){
+            factorial=factorial*i;  
+        }
+        cout<<"Factorial of entered number is: "<<factorial<<endl;
+    }
+    return 0;
+}
