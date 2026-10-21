@@ -35,3 +35,52 @@ int main(){
     
     return 0;
 }
+
+
+//Input three integers and print the largest. Handle the case where two or more numbers are equal.
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n1, n2, n3;
+    int tab;
+    cout<<"Enter your first number: "<<endl;
+    cin>>n1;
+    cout<<"Enter your second number: "<<endl;
+    cin>>n2;
+    cout<<"Enter your third number: "<<endl;
+    cin>>n3;
+
+    if(n1==n2==n3){
+        cout<<"The entered numbers are equal"<<endl;
+    }
+    else if(n1==n2 && n1>n3){
+        cout<<"Entered first and second numbers are equal and third number is lesser than them"<<endl;
+    }
+    else if(n1==n2 && n1<n3){
+        cout<<"Entered first and second numbers are equal and third number is greater than them"<<endl;
+    }
+    else if(n1==n3 && n1>n2){
+        cout<<"Entered first and third numbers are equal and second number is lesser than them"<<endl;
+    }
+    else if(n1==n3 && n1<n2){
+        cout<<"Entered first and third numbers are equal and second number is greater than them"<<endl;
+    }
+    else if(n2==n3 && n2>n1){
+        cout<<"Entered second and third numbers are equal and first number is lesser than them"<<endl;
+    }
+    else if(n2==n3 && n2<n1){
+        cout<<"Entered second and third numbers are equal and first number is greater than them"<<endl;
+    }
+    else if(n1>n2 && n1>n3){
+        cout<<"First entered number is the largest of all"<<endl;
+    }
+    else if(n2>n1 && n2>n3){
+        cout<<"Second entered number is the largest of all"<<endl;
+    }
+    else if(n3>n1 && n3>n2){
+        cout<<"Third entered number is the largest of all"<<endl;
+    }
+    return 0;
+}
