@@ -105,3 +105,21 @@ int main(){
     }
     return 0;
 }
+
+
+// Input an integer and calculate the sum of its digits. Example: 4821 → 15.
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n, digit, sum=0;
+    cout<<"Enter a number: ";
+    cin>>n;
+    while(n>0){
+        digit=n%10;
+        sum=sum+digit;
+        n=n/10;
+    }
+    cout<<"Sum of the digits of the entered number is "<<sum<<endl;
+    return 0;
+}
