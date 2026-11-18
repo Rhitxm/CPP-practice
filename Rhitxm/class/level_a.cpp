@@ -79,3 +79,45 @@ int main(){
 // Employee ID is: 1
 // Name is: rhitam
 // Salary is: 250000
+
+
+
+// Create a Rectangle class with length and breadth. Write functions to calculate area and perimeter.
+#include <iostream>
+using namespace std;
+class Rectangle{
+    public:
+    int length;
+    int breadth;
+};
+int AreaOfRectangle(int length, int breadth){
+    int area;
+    area=length*breadth;
+    return area;
+}
+int PerimeterOfRectangle(int length, int breadth){
+    int perimeter;
+    perimeter=2*(length+breadth);
+    return perimeter;
+}
+int main() 
+{
+    int x, y;
+    cout<<"Enter length: ";
+    cin>>x;
+    cout<<"Enter breadth: ";
+    cin>>y;
+    int n;
+    cout<<"\n1.Perimeter"<<"\n2.Area\n";
+    cout<<"Enter your choice: ";
+    cin>>n;
+    cout<<"----Results----"<<endl;
+    switch(n){
+        case 1:
+        cout<<"Perimeter is: "<<PerimeterOfRectangle(x, y)<<endl;
+        break;
+        case 2:
+        cout<<"Area is: "<<AreaOfRectangle(x, y)<<endl;
+    }
+    return 0;
+}
