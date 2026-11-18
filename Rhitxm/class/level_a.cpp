@@ -61,3 +61,15 @@ int main(){
    }
     return 0;
 }
+//OUTPUT:
+// Enter number of employees: 1
+
+// Enter details of the employee: 1
+// Enter employee ID: 1
+// Enter name: rhitam
+// Enter salary: 250000\
+
+// ------Employee Details------
+// Employee ID is: 1
+// Name is: rhitam
+// Salary is: 250000
