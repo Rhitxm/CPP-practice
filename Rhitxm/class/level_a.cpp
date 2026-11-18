@@ -121,3 +121,12 @@ int main()
     }
     return 0;
 }
+//OUTPUT:
+// Enter length: 2
+// Enter breadth: 4
+
+// 1.Perimeter
+// 2.Area
+// Enter your choice: 2
+// ----Results----
+// Area is: 8
