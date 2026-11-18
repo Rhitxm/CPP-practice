@@ -28,6 +28,12 @@ int main(){
     cout<<"Student name: "<<Atharv.name<<", "<<"Roll Number: "<<Atharv.rollNumber<<", "<<"CGPA: "<<Atharv.CGPA<<endl;
     return 0;
 }
+//OUTPUT:
+// Student name: Rhitam, Roll Number: 41, CGPA: 9.67
+// Student name: Sumedh, Roll Number: 26, CGPA: 9.6
+// Student name: Atharv, Roll Number: 3, CGPA: 9.69
+
+
 
 // Create an Employee class with employee ID, name and salary. Take input and display the information.
 #include <iostream>
