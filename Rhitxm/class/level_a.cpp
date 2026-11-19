@@ -130,3 +130,32 @@ int main()
 // Enter your choice: 2
 // ----Results----
 // Area is: 8
+
+
+// Create a BankAccount class with account number and balance. Implement deposit and withdrawal functions.
+#include <iostream>
+using namespace std;
+class BankAcc{
+    public:
+    int accNumber;
+    private:
+    float bal=6900000.00; //stipulated fixed amount
+};
+float deposit(float d)(
+    bal=bal+d;
+)
+float withdrawal(float w){
+    bal=bal-w;
+}
+int main(){
+    int n;
+    cout<<"Enter your account number: ";
+    cin>>accNumber;
+    cout<<"Balance in account is: "<<bal<<endl; 
+    cout<<
+    switch(n){
+        case 1:
+
+    }
+    return 0;
+}
