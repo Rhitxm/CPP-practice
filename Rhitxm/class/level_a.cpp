@@ -134,28 +134,54 @@ int main()
 
 // Create a BankAccount class with account number and balance. Implement deposit and withdrawal functions.
 #include <iostream>
+#include<iomanip> //for displaying digits without scientific notation
 using namespace std;
 class BankAcc{
     public:
     int accNumber;
     private:
-    float bal=6900000.00; //stipulated fixed amount
-};
-float deposit(float d)(
+    double bal=6900000.00; //stipulated fixed amount
+    public:
+    void display(){
+        cout<<"Balance in account is: "<<bal<<endl;
+    }
+void deposit(double d){
     bal=bal+d;
-)
-float withdrawal(float w){
-    bal=bal-w;
+    cout<<"Current balance after depositing rupees "<<d<<" is "<<bal<<endl;
 }
+void withdrawal(double w){
+    if(w>bal){
+        cout<<"Insufficient Balance!!"<<endl;
+    }
+    else{
+    bal=bal-w;
+    cout<<"Current balance after withdrawing rupees "<<w<<" is "<<bal<<endl;
+    }
+}
+};
 int main(){
+    cout<<fixed<<setprecision(2);
+    BankAcc account;
     int n;
+    double amount;
     cout<<"Enter your account number: ";
-    cin>>accNumber;
-    cout<<"Balance in account is: "<<bal<<endl; 
-    cout<<
+    cin>>account.accNumber;
+    account.display();
+    cout<<"Enter your choice: "<<"\n1.Deposit\n"<<"\n2.Withdrwal"<<endl;
+    cin>>n;
     switch(n){
         case 1:
-
+        cout<<"Enter amount to be deposited: ";
+        cin>>amount;
+        account.deposit(amount);
+        break;
+        case 2:
+        cout<<"Enter amount to be withdrawn :";
+        cin>>amount;
+        account.withdrawal(amount);
+        break;
+        default:
+        cout<<"No option was chosen"<<endl;
     }
     return 0;
 }
