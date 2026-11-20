@@ -195,3 +195,33 @@ int main(){
 // 1
 // Enter amount to be deposited: 20
 // Current balance after depositing rupees 20.00 is 6900020.00
+
+
+
+
+// Create a Car class with brand, model and speed. Implement functions to accelerate and brake.
+#include <iostream>
+#include<iomanip>
+using namespace std;
+class car{
+    public:
+    string brand;
+    int model;
+    double speed;
+};
+int main(){
+    cout<<fixed<<setprecision(2);
+    int n;
+    cout<<"Enter number of cars to be registered: ";
+    cin>>n;
+    car Car[100];
+    for(int i=1; i<=n; i++){
+        cout<<"Enter details of the car "<<i<<endl;
+        cout<<"Enter brand name: "<<Car[i].brand<<endl;
+        cout<<"Enter model: "<<Car[i].model<<endl;
+        cout<<"Enter speed: "<<Car[i].speed<<endl;
+    }
+    cout<<"Enter number of car you want to change speed of: "<<endl;
+    cin>>i;
+    return 0;
+}
