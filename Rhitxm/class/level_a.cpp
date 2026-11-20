@@ -185,3 +185,13 @@ int main(){
     }
     return 0;
 }
+//OUTPUT
+// Enter your account number: 123
+// Balance in account is: 6900000.00
+// Enter your choice: 
+// 1.Deposit
+
+// 2.Withdrwal
+// 1
+// Enter amount to be deposited: 20
+// Current balance after depositing rupees 20.00 is 6900020.00
