@@ -160,7 +160,7 @@ void withdrawal(double w){
 }
 };
 int main(){
-    cout<<fixed<<setprecision(2);
+    cout<<fixed<<setprecision(2); //displays only 2 digits after the decimal
     BankAcc account;
     int n;
     double amount;
