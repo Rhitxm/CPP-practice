@@ -225,3 +225,48 @@ int main(){
     cin>>i;
     return 0;
 }
+
+
+
+
+// Create a Calculator class with two numbers. Implement addition, subtraction, multiplication and division.
+#include <iostream>
+#include<iomanip>
+using namespace std;
+class Calculator{
+    public:
+    int a;
+    int b;
+void addition(int x, int y){
+    int sum;
+    sum=x+y;
+    cout<<"The addition of two numbers "<<x<<" & "<<y<<" is: "<<sum<<endl;
+}
+void subtraction(int x, int y){
+    int sub;
+    sub=x-y;
+    cout<<"The subtraction of two numbers "<<x<<" & "<<y<<" is: "<<sub<<endl;
+}
+void multiplication(int x, int y){
+    int mul;
+    mul=x*y;
+    cout<<"The multiplication of two numbers "<<x<<" & "<<y<<" is: "<<mul<<endl;
+}
+void division(int x, int y){
+    int div;
+    if(y==0){
+        cout<<"Division not posiible"<<endl;
+    }
+    else{
+        div=x/y;
+        cout<<"The division of two numbers "<<x<<" & "<<y<<" is: "<<div<<endl;
+    }
+}
+};
+int main(){
+    cout<<fixed<<setprecision(2);
+    Calculator calc;
+    
+
+    return 0;
+}
