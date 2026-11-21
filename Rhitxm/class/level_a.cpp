@@ -306,3 +306,13 @@ int main(){
     }
     return 0;
 }
+//SAMPLE OUTPUT:
+// Enter choice to perform: 
+// 1.Addition
+// 2.Subtraction
+// 3.Multiplication
+// 4.Division
+// 2
+// Enter your first number: 4
+// Enter your second number: 5
+// The subtraction of two numbers 4.00 & 5.00 is: -1.00
