@@ -357,3 +357,9 @@ int main(){
     return 0;
 }
 //SAMPLE OUTPUT:
+// Enter your choice: 
+// 1.Area
+// 2.Perimeter
+// 1
+// Enter the value of radius: 2
+// Area of the circle according to your entered radius is: 12.56
