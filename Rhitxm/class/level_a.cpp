@@ -316,3 +316,43 @@ int main(){
 // Enter your first number: 4
 // Enter your second number: 5
 // The subtraction of two numbers 4.00 & 5.00 is: -1.00
+
+
+
+
+
+// Create a Circle class with radius. Calculate its area and circumference using member functions.
+#include <iostream>
+#include<iomanip>
+using namespace std;
+class Circle{
+    public:
+    double radius;
+    double area(){
+       return 3.14*radius*radius;
+}
+    double circumference(){
+       return 2*3.14*radius;
+}
+};
+int main(){
+    cout<<fixed<<setprecision(2);
+    Circle calc;
+    int n;
+    cout<<"Enter your choice: "<<endl;
+    cout<<"1.Area"<<endl;
+    cout<<"2.Perimeter"<<endl;
+    cin>>n;
+    cout<<"Enter the value of radius: ";
+    cin>>calc.radius;
+    switch(n){
+        case 1:
+        cout<<"Area of the circle according to your entered radius is: "<<calc.area();
+        break;
+        cout<<"Circumference of the circle according to the entered radius is: "<<calc.circumference();
+        break;
+        default:
+        cout<<"None of the choices are chosen"<<endl;
+    }
+    return 0;
+}
