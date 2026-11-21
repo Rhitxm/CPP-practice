@@ -235,30 +235,30 @@ int main(){
 using namespace std;
 class Calculator{
     public:
-    int a;
-    int b;
-void addition(int x, int y){
-    int sum;
+    double a;
+    double b;
+void addition(double x, double y){
+    double sum;
     sum=x+y;
     cout<<"The addition of two numbers "<<x<<" & "<<y<<" is: "<<sum<<endl;
 }
-void subtraction(int x, int y){
-    int sub;
+void subtraction(double x, double y){
+    double sub;
     sub=x-y;
     cout<<"The subtraction of two numbers "<<x<<" & "<<y<<" is: "<<sub<<endl;
 }
-void multiplication(int x, int y){
-    int mul;
+void multiplication(double x, double y){
+    double mul;
     mul=x*y;
     cout<<"The multiplication of two numbers "<<x<<" & "<<y<<" is: "<<mul<<endl;
 }
-void division(int x, int y){
-    int div;
+void division(double x, double y){
+    double div;
     if(y==0){
         cout<<"Division not posiible"<<endl;
     }
     else{
-        div=x/y;
+        div=(double)x/y;
         cout<<"The division of two numbers "<<x<<" & "<<y<<" is: "<<div<<endl;
     }
 }
@@ -266,7 +266,43 @@ void division(int x, int y){
 int main(){
     cout<<fixed<<setprecision(2);
     Calculator calc;
-    
-
+    cout<<"Enter choice to perform: "<<endl;
+    cout<<"1.Addition"<<endl;
+    cout<<"2.Subtraction"<<endl;
+    cout<<"3.Multiplication"<<endl;
+    cout<<"4.Division"<<endl;
+    int n;
+    cin>>n;
+    switch(n){
+        case 1:
+        cout<<"Enter your first number: ";
+        cin>>calc.a;
+        cout<<"Enter your second number: ";
+        cin>>calc.b;
+        calc.addition(calc.a, calc.b);
+        break;
+        case 2:
+        cout<<"Enter your first number: ";
+        cin>>calc.a;
+        cout<<"Enter your second number: ";
+        cin>>calc.b;
+        calc.subtraction(calc.a, calc.b);
+        break;
+        case 3:
+        cout<<"Enter your first number: ";
+        cin>>calc.a;
+        cout<<"Enter your second number: ";
+        cin>>calc.b;
+        calc.multiplication(calc.a, calc.b);
+        break;
+        case 4:
+        cout<<"Enter your dividend: ";
+        cin>>calc.a;
+        cout<<"Enter your divisor: ";
+        cin>>calc.b;
+        calc.division(calc.a, calc.b);
+        default:
+        cout<<"No input received";
+    }
     return 0;
 }
