@@ -404,13 +404,4 @@ int main(){
     cout<<"Price: "<<book2.price<<endl;
     return 0;
 }
-//OUTPUT:
-// -----Details-----
- 
-// Title: Room on the roof
-// Author: Ruskin Bond
-// Price: 350
- 
-// Title: Samsara
-// Author: Saksham Garg
-// Price: 250
+
