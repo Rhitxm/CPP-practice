@@ -363,3 +363,54 @@ int main(){
 // 1
 // Enter the value of radius: 2
 // Area of the circle according to your entered radius is: 12.56
+
+
+
+
+
+
+
+// Create a Book class with title, author and price. Display the details using a member function.
+#include <iostream>
+using namespace std;
+class Book{
+    public:
+    string title;
+    string author;
+    int price;
+void book1(){
+    title="Room on the roof";
+    author="Ruskin Bond";
+    price=350;
+}
+void book2(){
+    title="Samsara";
+    author="Saksham Garg";
+    price=250;
+}
+};
+int main(){
+    Book book1, book2;
+    book1.book1();
+    book2.book2();
+    cout<<"-----Details-----"<<endl;
+    cout<<" "<<endl;
+    cout<<"Title: "<<book1.title<<endl;
+    cout<<"Author: "<<book1.author<<endl;
+    cout<<"Price: "<<book1.price<<endl;
+    cout<<" "<<endl;
+    cout<<"Title: "<<book2.title<<endl;
+    cout<<"Author: "<<book2.author<<endl;
+    cout<<"Price: "<<book2.price<<endl;
+    return 0;
+}
+//OUTPUT:
+// -----Details-----
+ 
+// Title: Room on the roof
+// Author: Ruskin Bond
+// Price: 350
+ 
+// Title: Samsara
+// Author: Saksham Garg
+// Price: 250
