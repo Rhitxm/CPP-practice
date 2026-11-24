@@ -37,3 +37,31 @@ int main(){
 // Name: Sumedh
 // Roll Number: 26
 // CGPA: 9.69
+
+
+
+
+
+//Create a Complex class with real and imaginary parts. Initialise them using a constructor and display the complex number.
+#include <iostream>
+using namespace std;
+class Complex{
+    public:
+    int a;
+    int b;
+    Complex(int x, int y);
+};
+Complex::Complex(int x, int y){
+    a=x;
+    b=y;
+}
+int main(){
+    Complex c1(1, 3);
+    Complex c2(4, 2);
+    cout<<"Complex Number 1 is: "<<c1.a<<"+"<<c1.b<<"i"<<endl;
+    cout<<"Complex number 2 is: "<<c2.a<<"+"<<c2.b<<"i"<<endl;
+    return 0;
+}
+//OUPUT:
+// Complex Number 1 is: 1+3i
+// Complex number 2 is: 4+2i
