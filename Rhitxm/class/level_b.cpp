@@ -96,3 +96,8 @@ int main(){
     cout<<"For rectangle 3, length is: "<<r3.length<<" and breadth is: "<<r3.breadth<<endl;
     return 0;
 }
+//OUTPUT
+// ----Rectangle Details----
+// For rectangle 1, length is: 0 and breadth is: 0
+// For rectangle 2, length is: 2 and breadth is: 3
+// For rectangle 3, length is: 4 and breadth is: 9
