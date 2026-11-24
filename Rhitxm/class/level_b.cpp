@@ -65,3 +65,34 @@ int main(){
 //OUPUT:
 // Complex Number 1 is: 1+3i
 // Complex number 2 is: 4+2i
+
+
+
+
+
+// Create a Rectangle class with overloaded constructors: one with no arguments and another with length and breadth.
+#include <iostream>
+using namespace std;
+class Rectangle{
+    public:
+    int length;
+    int breadth;
+    Rectangle(){
+        length=0;
+        breadth=0;
+    }
+    Rectangle(int l, int b){
+        length=l;
+        breadth=b;
+    }
+};
+int main(){
+    Rectangle r1;
+    Rectangle r2(2, 3);
+    Rectangle r3(4, 9);
+    cout<<"----Rectangle Details----"<<endl;
+    cout<<"For rectangle 1, length is: "<<r1.length<<" and breadth is: "<<r1.breadth<<endl;
+    cout<<"For rectangle 2, length is: "<<r2.length<<" and breadth is: "<<r2.breadth<<endl;
+    cout<<"For rectangle 3, length is: "<<r3.length<<" and breadth is: "<<r3.breadth<<endl;
+    return 0;
+}
