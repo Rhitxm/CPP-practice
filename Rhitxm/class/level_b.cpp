@@ -27,4 +27,13 @@ int main(){
     cout<<"CGPA: "<<s2.cgpa<<endl;
     return 0;
 }
-
+//OUTPUT
+// ------Student Details------
+ 
+// Name: Rhitam
+// Roll Number: 41
+// CGPA: 9.67
+ 
+// Name: Sumedh
+// Roll Number: 26
+// CGPA: 9.69
