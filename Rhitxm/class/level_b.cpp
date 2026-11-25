@@ -135,3 +135,17 @@ int main(){
     }
     return 0;
 }
+//OUTPUT
+// Enter number of Employees: 2
+// Enter details of Employee 1:
+// Enter salary: 230000
+// Enter department: IT
+// Enter details of Employee 2:
+// Enter salary: 690000
+// Enter department: AURO
+// -----Employee details-----
+// Employee salary: 230000
+// Employee department: IT
+
+// Employee salary: 690000
+// Employee department: AURO
