@@ -101,3 +101,37 @@ int main(){
 // For rectangle 1, length is: 0 and breadth is: 0
 // For rectangle 2, length is: 2 and breadth is: 3
 // For rectangle 3, length is: 4 and breadth is: 9
+
+
+
+
+
+//Create an Employee class with a constructor having default arguments for salary and department.
+#include <iostream>
+using namespace std;
+class Employee{
+    public:
+    double salary;
+    string department;
+};
+int main(){
+    int n;
+    cout<<"Enter number of Employees: ";
+    cin>>n;
+    Employee emp[100];
+    for(int i=1; i<=n; i++){
+        cout<<"Enter details of Employee "<<i<<":"<<endl;
+        cout<<"Enter salary: ";
+        cin>>emp[i].salary;
+        cout<<"Enter department: ";
+        cin>>emp[i].department;
+    }
+
+    cout<<"-----Employee details-----"<<endl;
+    for(int i=1; i<=n; i++){
+        cout<<"Employee salary: "<<emp[i].salary<<endl;
+        cout<<"Employee department: "<<emp[i].department<<endl;
+        cout<<"\n";
+    }
+    return 0;
+}
