@@ -106,35 +106,7 @@ int main(){
 
 
 
-//Create an Employee class with a constructor having default arguments for salary and department.
-#include <iostream>
-using namespace std;
-class Employee{
-    public:
-    double salary;
-    string department;
-};
-int main(){
-    int n;
-    cout<<"Enter number of Employees: ";
-    cin>>n;
-    Employee emp[100];
-    for(int i=1; i<=n; i++){
-        cout<<"Enter details of Employee "<<i<<":"<<endl;
-        cout<<"Enter salary: ";
-        cin>>emp[i].salary;
-        cout<<"Enter department: ";
-        cin>>emp[i].department;
-    }
 
-    cout<<"-----Employee details-----"<<endl;
-    for(int i=1; i<=n; i++){
-        cout<<"Employee salary: "<<emp[i].salary<<endl;
-        cout<<"Employee department: "<<emp[i].department<<endl;
-        cout<<"\n";
-    }
-    return 0;
-}
 //OUTPUT
 // Enter number of Employees: 2
 // Enter details of Employee 1:
