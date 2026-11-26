@@ -182,3 +182,28 @@ int main(){
 //OUTPUT
 // My height in feet is: 5.2
 // My height in inches is: 62.4
+
+
+
+
+
+
+// Create a Shop class that stores the names and prices of five products using arrays. Display all products.
+#include <iostream>
+using namespace std;
+class Shop{
+    public:
+    string arr1[5]={"Soap", "Toothbrush", "Toothpaste", "Shampoo", "Hair oil"};
+    int arr2[5]={20, 10, 50, 250, 150};
+void display(){
+    for(int i=0; i<=4; i++){
+        cout<<"Price of "<<arr1[i]<<" is: "<<arr2[i]<<endl;
+    }
+}
+};
+int main() 
+{
+    Shop s1;
+    s1.display();
+    return 0;
+}
