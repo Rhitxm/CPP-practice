@@ -149,3 +149,33 @@ int main(){
 
 // Employee salary: 690000
 // Employee department: AURO
+
+
+
+
+
+
+
+//Create a Distance class with feet and inches. Write a constructor to initialise the values.
+#include <iostream>
+using namespace std;
+class Distance{
+    private:
+    double feet;
+    double inches;
+    public:
+    Distance(double f, double i){
+     feet=f;
+     inches=i;
+    }
+void display(){
+    cout<<"My height in feet is: "<<feet<<endl;
+    cout<<"My height in inches is: "<<inches<<endl;
+}
+};
+
+int main(){
+    Distance d1(5.2, 62.4);
+    d1.display();
+    return 0;
+}
