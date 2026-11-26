@@ -179,3 +179,6 @@ int main(){
     d1.display();
     return 0;
 }
+//OUTPUT
+// My height in feet is: 5.2
+// My height in inches is: 62.4
