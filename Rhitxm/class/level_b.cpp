@@ -213,3 +213,24 @@ int main()
 // Price of Toothpaste is: 50
 // Price of Shampoo is: 250
 // Price of Hair oil is: 150
+
+
+
+
+
+
+
+
+// Create a Student class and use an array of objects to store details of five students. Display the student with the highest CGPA.
+#include <iostream>
+using namespace std;
+class Student{
+    string name[5]={"Rhitam", "Sumedh", "Darcy", "Atharv", "Darsh"};
+    string branch[5]={""};
+    double CGPA[5]=
+}
+int main() 
+{
+    
+    return 0;
+}
