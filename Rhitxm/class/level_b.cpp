@@ -207,3 +207,9 @@ int main()
     s1.display();
     return 0;
 }
+
+// Price of Soap is: 20
+// Price of Toothbrush is: 10
+// Price of Toothpaste is: 50
+// Price of Shampoo is: 250
+// Price of Hair oil is: 150
