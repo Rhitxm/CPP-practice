@@ -27,7 +27,7 @@ int main(){
     cout<<"CGPA: "<<s2.cgpa<<endl;
     return 0;
 }
-//OUTPUT
+//OUTPUT:
 // ------Student Details------
  
 // Name: Rhitam
@@ -96,7 +96,7 @@ int main(){
     cout<<"For rectangle 3, length is: "<<r3.length<<" and breadth is: "<<r3.breadth<<endl;
     return 0;
 }
-//OUTPUT
+//OUTPUT:
 // ----Rectangle Details----
 // For rectangle 1, length is: 0 and breadth is: 0
 // For rectangle 2, length is: 2 and breadth is: 3
@@ -135,7 +135,7 @@ int main(){
     }
     return 0;
 }
-//OUTPUT
+//OUTPUT:
 // Enter number of Employees: 2
 // Enter details of Employee 1:
 // Enter salary: 230000
@@ -179,7 +179,7 @@ int main(){
     d1.display();
     return 0;
 }
-//OUTPUT
+//OUTPUT:
 // My height in feet is: 5.2
 // My height in inches is: 62.4
 
@@ -207,7 +207,7 @@ int main()
     s1.display();
     return 0;
 }
-//OUTPUT
+//OUTPUT:
 // Price of Soap is: 20
 // Price of Toothbrush is: 10
 // Price of Toothpaste is: 50
