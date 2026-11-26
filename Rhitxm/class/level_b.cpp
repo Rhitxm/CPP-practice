@@ -207,7 +207,7 @@ int main()
     s1.display();
     return 0;
 }
-
+//OUTPUT
 // Price of Soap is: 20
 // Price of Toothbrush is: 10
 // Price of Toothpaste is: 50
