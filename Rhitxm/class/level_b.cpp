@@ -221,14 +221,16 @@ int main()
 
 
 
-// Create a Student class and use an array of objects to store details of five students. Display the student with the highest CGPA.
+//Create a Student class and use an array of objects to store details of five students. Display the student with the highest CGPA.
 #include <iostream>
 using namespace std;
 class Student{
-    string name[5]={"Rhitam", "Sumedh", "Darcy", "Atharv", "Darsh"};
-    string branch[5]={""};
-    double CGPA[5]=
-}
+    public:
+    string arr name[5]={"Rhitam", "Atharv", "Sumedh", "Darcy", "Darsh"};
+    int arr roll_no[5]={1, 2, 3, 4, 5};
+    double arr cgpa[5]={9.67, 9.69, 9.67, 9.11, 9.10};
+    string arr branch[5]={"AURO", "AURO", "CMPN", "IT", "AURO"};
+};
 int main() 
 {
     
